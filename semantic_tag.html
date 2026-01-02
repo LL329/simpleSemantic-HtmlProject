@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Project</title>
+ <link rel="stylesheet" href="html/style.css">
+
+</head>
+<body>
+
+  <!-- Header with navigation -->
+  <header>
+    <h1>Mehedi Hasan Shanto Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <article>
+        <h3>Introduction</h3>
+        <p>Hello! I am a web developer passionate about creating accessible websites.</p>
+        <p>I love working with <abbr title="HyperText Markup Language">HTML</abbr>, CSS, and JavaScript.</p>
+      </article>
+      <aside>
+        <p><mark>Fun fact:</mark> I started coding at age 15!</p>
+      </aside>
+    </section>
+
+    <section>
+         <aside>
+        <h3 class="design">Did you want more about me?</h3>
+        <details>
+           <article> I love to code and develop new things.I am pasionate about technology and always eager to learn more.I am a team player and enjoy collabaration with others to achive common goals.</article>
+            <summary>This is MH.....</summary>
+        </details>
+    </aside>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>HTML5</strong> & <em>Semantic Web</em></li>
+        <li>CSS3 & Responsive Design</li>
+        <li>JavaScript & Frameworks</li>
+      </ul>
+      <figure>
+        <img width="300px" style="border-radius: 3px;" src="/html/myprofile.jpg" alt="Coding illustration">
+        <figcaption>Coding illustration representing my skills.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Portfolio Website</h3>
+        <p>This very site is built with semantic HTML tags.</p>
+        <blockquote cite="https://developer.mozilla.org">
+          "Semantic HTML gives meaning to web content."
+        </blockquote>
+        <cite>— MDN Web Docs</cite>
+      </article>
+
+      <article>
+        <h3>Data Table Example</h3>
+        <table>
+          <caption>Project Timeline</caption>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Project</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2024</td>
+              <td>Portfolio</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>Blog</td>
+              <td>Ongoing</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">End of Timeline</td>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <address>
+        Email: <a href="ll4146394@gmail.com">ll4146394@gmail.com</a><br>
+        Location: Sirajganj, Bangladesh
+      </address>
+
+      <form>
+        <fieldset>
+          <legend>Send a Message</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br><br>
+
+          <label for="progress">Learning Progress:</label>
+          <progress id="progress" value="70" max="100"></progress><br><br>
+
+          <label for="skill-level">Skill Level:</label>
+          <meter id="skill-level" value="0.8" min="0" max="1">80%</meter><br><br>
+
+          <button type="submit">Send</button>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <time datetime="2026">2026</time> MH Portfolio</p>
+  </footer>
+
+</body>
+</html>
